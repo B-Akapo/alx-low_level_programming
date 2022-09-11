@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: code that prints all possible combination
+ * Description: code that prints all possible combination of two digits
  * Return: 0
  */
 
@@ -10,7 +10,7 @@ int main(void)
 {
 	int c;
 	int d = 0;
-
+	/* your code goes there */
 	while (d < 10)
 	{
 		c = 0;
@@ -30,5 +30,6 @@ int main(void)
 		}
 		d++;
 	}
+	putchar('\n');
 	return (0);
 }
