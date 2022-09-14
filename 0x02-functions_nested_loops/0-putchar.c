@@ -8,7 +8,15 @@
 
 int main()
 {
-	printf("_putchar\n");
+	char spell[10];
+	int i;
+
+	while (spell[i] != '\0')
+	{
+		char c = spell[i];
+		_putchar(c);
+		i++;
+	}
 	return 0;
 
 }
