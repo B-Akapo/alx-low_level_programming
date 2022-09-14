@@ -8,17 +8,14 @@
 
 int _islower(int c)
 {
-	int i;
+	int i = 'a';
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (c == i)
+		if (c >= 'a' && c <= 'z')
 		{
 			return (1);
 		}
-		else
-		{
+		}
 			return (0);
 		}
-	}
-}
