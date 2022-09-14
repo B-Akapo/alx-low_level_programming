@@ -8,7 +8,7 @@
 
 int main()
 {
-	char spell[10];
+	char spell[10] = "_putchar\n";
 	int i;
 
 	while (spell[i] != '\0')
