@@ -4,9 +4,9 @@
  * main - Entry point
  * Description: prints '_putchar'
  * Return: Always 0 (success)
-*/
+ */
 
-int main()
+int main(void)
 {
 	char spell[10] = "_putchar";
 	int i = 0;
@@ -14,10 +14,11 @@ int main()
 	while (spell[i] != '\0')
 	{
 		char c = spell[i];
+
 		_putchar(c);
 		i++;
 	}
 	_putchar(10);
-	return 0;
+	return (0);
 
 }
